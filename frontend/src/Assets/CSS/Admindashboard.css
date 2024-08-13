@@ -1,0 +1,32 @@
+/* src/pages/AdminDashboard.css */
+
+.page-container {
+    display: flex;
+    width: 100%;
+  }
+  
+  .content-container {
+    flex: 1;
+    padding: 20px;
+    background-color: #f1f1f1;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  .section-title {
+    margin-bottom: 10px;
+  }
+  
+  .box {
+    background-color:#D3D3D3;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  

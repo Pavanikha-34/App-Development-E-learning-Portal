@@ -1,0 +1,80 @@
+/* src/pages/Users.css */
+
+.users-container {
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .user-form input, .user-form select, .user-form button {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    flex: 1 1 200px;
+  }
+  
+  .user-form button {
+    flex: 1 1 100px;
+    background-color: #45a049;
+  }
+  
+  .users-table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow-x: auto;
+  }
+  
+  .users-table th, .users-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .users-table th {
+    background-color: #282c34;
+    color: white;
+  }
+  
+  .users-table button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    background-color: #45a049;
+  }
+  
+  .users-table button:hover {
+    background-color: #61dafb;
+    color: white;
+    background-color: #45a049;
+  }
+  .users-table button:last-child {
+    margin-right: 0; /* Remove margin for the last button to avoid extra space */
+  }
+  @media (max-width: 768px) {
+    .users-container {
+      padding: 10px;
+    }
+  
+    .user-form {
+      flex-direction: column;
+    }
+  
+    .users-table th, .users-table td {
+      padding: 8px;
+    }
+  
+    .users-table th, .users-table td, .users-table button {
+      font-size: 14px;
+    }
+  }
+  

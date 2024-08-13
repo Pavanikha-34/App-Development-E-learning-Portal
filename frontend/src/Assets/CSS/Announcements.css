@@ -1,0 +1,85 @@
+.announcements-container {
+    padding: 20px;
+   
+  }
+ 
+  
+  .title {
+    color: #e91e63;
+    font-weight: bold;
+  }
+  
+  .top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-barr {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-barr input,
+  .search-barr button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    height: 38px;
+    margin: 0;
+    margin-left: 10px;
+  }
+  
+  .search-barr input {
+    border-radius: 4px 0 0 4px;
+    flex: 1;
+  }
+  
+  .search-barr button {
+    border-left: none;
+    background-color: #111212;
+    color: white;
+    border-radius: 0 4px 4px 0;
+  }
+  
+  .filter-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .filter-container select,
+  .filter-container button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+    height: 38px;
+    margin: 0;
+  }
+  
+  .clear-button {
+    background-color: white;
+    color: #e91e63;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    height: 38px;
+    padding: 0 10px;
+  }
+  
+  .announcement-list {
+    margin-top: 20px;
+  }
+  
+  .announcement-item {
+    padding: 10px;
+    border-bottom: 1px solid #861818;
+     
+  }
+  
+  .announcement-item h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  

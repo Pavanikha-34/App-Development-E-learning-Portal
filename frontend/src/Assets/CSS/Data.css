@@ -1,0 +1,145 @@
+/* CoursePage.css */
+
+.course-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1c1c1c;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .course-banner {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 1200px;
+    margin-bottom: 40px;
+  }
+  
+  .course-details {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+  
+  .course-details h1 {
+    font-size: 2.5em;
+    margin: 0 0 10px;
+  }
+  
+  .course-details p {
+    margin: 5px 0;
+    color:#fff
+  }
+  
+  .course-price {
+    font-size: 1.5em;
+    font-weight: bold;
+    color:#fff
+  }
+  
+  .course-price .original-price {
+    text-decoration: line-through;
+    color: #f9e9e9;
+    margin-left: 10px;
+  }
+  
+  .course-price .discount {
+    color: #f5067d;
+    margin-left: 10px;
+  }
+  
+  .buy-now {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #f5067d;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .buy-now:hover {
+    background-color: #3d3f3d;
+  }
+  
+  .course-image {
+    flex: 1;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .what-we-offer, .program-overview {
+    max-width: 1200px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+    background-color: #f5067d;
+  }
+  
+  .what-we-offer h2, .program-overview h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .offerings, .modules {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #f5067d;
+  }
+  
+  .offering, .module {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    max-width: 45%;
+    flex: 1;
+  }
+  
+  .offering img, .module img {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+  }
+  
+  .offering h3, .module h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .offering p, .module ul {
+    font-size: 1em;
+    list-style-type: none;
+    padding: 0;
+    color:rgb(255, 244, 250)
+  }
+  
+  .module ul li {
+    margin-bottom: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .course-banner, .offerings, .modules {
+      flex-direction: column;
+    }
+  
+    .course-details {
+      text-align: center;
+    }
+  
+    .offering, .module {
+      max-width: 100%;
+    }
+  }
+  

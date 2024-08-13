@@ -1,0 +1,98 @@
+.forum-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .categories {
+    margin-bottom: 20px;
+  }
+  
+  .categories ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .categories li {
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .categories li.selected {
+    background-color: rgb(224, 4, 121);
+    color: white;
+  }
+  
+  .new-post {
+    margin-bottom: 20px;
+  }
+  
+  .new-post form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .new-post textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .new-post button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color:rgb(224, 4, 121);
+    color: white;
+    cursor: pointer;
+  }
+  
+  .posts {
+    margin-bottom: 20px;
+  }
+  
+  .post {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    margin-bottom: 10px;
+  }
+  
+  .post p {
+    margin: 0;
+  }
+  
+  .comments {
+    margin-top: 10px;
+  }
+  
+  .comments h4 {
+    margin: 0 0 10px 0;
+  }
+  
+  .comments form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .comments input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .comments button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(224, 4, 121);
+    color: white;
+    cursor: pointer;
+  }
+  

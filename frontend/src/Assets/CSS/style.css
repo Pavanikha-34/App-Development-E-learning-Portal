@@ -1,0 +1,92 @@
+ /* src/Assets/CSS/style.css */
+
+ body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.video-background {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#background-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Dark overlay for better text visibility */
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;  
+  width: 100%;
+  background-color: white;  
+  padding: 20px;
+  border: 100000px rgb(242, 10, 157);  
+  box-shadow: 0 0 20980px rgba(248, 4, 134, 0.863);
+}
+
+.form-group {
+  margin-bottom: 15px;  
+}
+
+label {
+  display: block;
+  margin-bottom: 5px; 
+  font-weight: bold;
+}
+
+input {
+  width: 100%;  
+  padding: 10px;
+  border: 1px solid #ccc; 
+  border-radius: 4px;  
+  box-sizing: border-box;  
+}
+
+button {
+  padding: 10px;
+  background-color: #e91e63; /* Pink background */
+  color: white;
+  border: none;
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+  margin-top: 10px; /* Space above the button */
+}
+
+button:hover {
+  background-color: #d81b60; /* Darker pink on hover */
+}
+
+span {
+  color: #e91e63;
+  font-size: 12px; /* Error message styling */
+}
+
+p {
+  margin-top: 10px;
+  color: white; /* White text color for better visibility on dark background */
+}
+
+a {
+  color: #e91e63;
+  text-decoration: none;
+}

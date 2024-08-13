@@ -1,0 +1,112 @@
+.profile-page {
+    display: flex;
+    
+  }
+  
+  .sidebar {
+    width: 300px;
+    background-color: #060506;
+    padding: 20px;
+    color: #ccc;
+     
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 10px 0;
+  }
+  
+  .profile-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .profile-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Adding gap between columns */
+    padding: 20px;
+  }
+  
+  .profile-card {
+    flex: 1;
+    max-width: 300px; /* Reduce the size of the profile card container */
+    border: 2px solid rgb(224, 4, 121); /* Adding border around the container */
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .profile-details p{
+    color: #000;
+  }
+  .profile-form {
+    flex: 2;
+    border: 2px solid rgb(224, 4, 121); /* Adding border around the container */
+    padding: 20px;
+    position: relative;
+  }
+  
+  .personal-info {
+    display: flex;
+    flex-direction: column; /* Ensure details are below the profile picture */
+    align-items: center;
+  }
+  
+  .profile-picture img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px; /* Add space between the image and the details */
+  }
+  
+  .profile-details {
+    text-align: center; /* Center align the details */
+  }
+  
+  .profile-details p {
+    margin: 5px 0;
+  }
+  
+  .profile-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .profile-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .profile-form input,
+  .profile-form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+
+  }
+   
+  
+  .profile-form button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #080808;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .profile-form button:hover {
+    background-color: rgb(224, 4, 121);
+  }
+  
+  .message {
+    margin-top: 15px;
+    color: rgb(1, 1, 1);
+  }
+  

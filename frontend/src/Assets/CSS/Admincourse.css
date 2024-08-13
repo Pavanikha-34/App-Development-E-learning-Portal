@@ -1,0 +1,76 @@
+/* src/pages/Courses.css */
+
+.courses-container {
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .course-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .course-form input, .course-form select, .course-form button {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    flex: 1 1 200px;
+  }
+  
+  .course-form button {
+    flex: 1 1 100px;
+    background-color: #45a049;
+  }
+  
+  .courses-table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow-x: auto;
+  }
+  
+  .courses-table th, .courses-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .courses-table th {
+    background-color: #282c34;
+    color: white;
+  }
+  
+  .courses-table button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    background-color: #45a049; /* Add margin to create a gap */
+  }
+  
+  .courses-table button:last-child {
+    margin-right: 0; /* Remove margin for the last button to avoid extra space */
+  }
+  
+  @media (max-width: 768px) {
+    .courses-container {
+      padding: 10px;
+    }
+  
+    .course-form {
+      flex-direction: column;
+    }
+  
+    .courses-table th, .courses-table td {
+      padding: 8px;
+    }
+  
+    .courses-table th, .courses-table td, .courses-table button {
+      font-size: 14px;
+    }
+  }
+  
